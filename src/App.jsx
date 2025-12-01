@@ -53,11 +53,28 @@ function App() {
         <section id="skills" className="section">
           <div className="section-inner">
             <h2>Skills</h2>
-            <ul>
-              <li>JavaScript, TypeScript, Python, SQL</li>
-              <li>React, Vite, HTML, CSS</li>
-              <li>Node.js, Express, MongoDB, Git, GitHub</li>
-            </ul>
+
+            <div className="skills-grid">
+              <div className="card">
+                <h3>Languages</h3>
+                <p>JavaScript (ES6+), Python, HTML5, CSS3</p>
+              </div>
+
+              <div className="card">
+                <h3>Frontend</h3>
+                <p>React (Hooks), Vite, Responsive Design</p>
+              </div>
+
+              <div className="card">
+                <h3>Backend</h3>
+                <p>Node.js, Express.js, REST APIs, MongoDB/Mongoose, Django</p>
+              </div>
+
+              <div className="card">
+                <h3>Tools</h3>
+                <p>Git & GitHub, Postman, npm, Netlify, Vercel, Render</p>
+              </div>
+            </div>
           </div>
         </section>
 
