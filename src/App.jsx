@@ -1,5 +1,6 @@
 // src/App.jsx
 import './App.css'
+import profilePic from './assets/self.jpeg'
 
 function App() {
   return (
@@ -18,16 +19,22 @@ function App() {
 
       <main>
         <section id="hero" className="section hero">
-          <div className="section-inner">
-            <p className="hero-eyebrow">Software Engineer</p>
-            <h1>Hi, I&apos;m Marco.</h1>
-            <p className="hero-tagline">
-              I build clean, user-focused web apps — from collectibles dashboards to league
-              management tools.
-            </p>
-            <div className="hero-actions">
-              <a href="#projects" className="btn primary">View Projects</a>
-              <a href="#contact" className="btn ghost">Contact Me</a>
+                <div className="section-inner hero-layout">
+                  <div className="hero-left">
+                    <p className="hero-eyebrow">Software Engineer</p>
+                    <h1>Hi, I&apos;m Marco.</h1>
+                    <p className="hero-tagline">
+                      I build clean, user-focused web apps — from collectibles dashboards to league
+                      management tools.
+                    </p>
+                    <div className="hero-actions">
+                      <a href="#projects" className="btn primary">View Projects</a>
+                      <a href="#contact" className="btn ghost">Contact Me</a>
+                    </div>
+                  </div>
+
+            <div className="hero-right">
+              <img src={profilePic} alt="Marco Agapito" className="profile-pic" />
             </div>
           </div>
         </section>
