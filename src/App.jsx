@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="app">
       <header className="header">
-        <div className="logo">Marco Agapito</div>
+        <div className="logo">Marco Philip Agapito</div>
         <nav className="nav">
           <a href="#hero">Home</a>
           <a href="#about">About</a>
@@ -75,7 +75,41 @@ function App() {
         <section id="experience" className="section">
           <div className="section-inner">
             <h2>Experience</h2>
-            <p>We&apos;ll flesh this out later.</p>
+
+            <div className="experience-list">
+              <article className="experience-item">
+                <h3>Software Engineering Immersive</h3>
+                <p className="meta">General Assembly · Jan 2025 – Aug 2025 · San Francisco (Remote/Hybrid)</p>
+                <ul>
+                  <li>Completed 500+ hours of full-stack web development training with daily standups, Agile workflow, and pair programming.</li>
+                  <li>Built and deployed multiple projects using React, Node.js, Express, MongoDB, Django, and REST APIs.</li>
+                  <li>Strengthened skills in debugging, version control (Git/GitHub), and building UI components from scratch.</li>
+                </ul>
+              </article>
+
+              <article className="experience-item">
+                <h3>Senior Autonomous Vehicle Operator</h3>
+                <p className="meta">Transdev / Waymo · Dec 2020 – Dec 2024 · San Francisco Bay Area</p>
+                <ul>
+                  <li>Executed high-precision driving operations to support autonomous vehicle testing in complex, real-world environments.</li>
+                  <li>Logged and reported system behaviors to engineering teams, contributing to improvements in AV performance and safety.</li>
+                  <li>Demonstrated strong problem-solving, attention to detail, and reliable teamwork in a technical, safety-critical setting.</li>
+                </ul>
+              </article>
+            </div>
+
+            <div className="experience-education">
+              <h2>Education</h2>
+              <ul>
+                <li>
+                  <strong>Software Engineering Immersive</strong> — General Assembly (2025)<br />
+                  Full-Stack Web Development Certificate
+                </li>
+                <li>
+                  <strong>Westmoor High School</strong> — Daly City, CA (2012 – 2015)
+                </li>
+              </ul>
+            </div>
           </div>
         </section>
 
