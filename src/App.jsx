@@ -81,11 +81,58 @@ function App() {
         <section id="projects" className="section">
           <div className="section-inner">
             <h2>Projects</h2>
-            <ul>
-              <li>Funkollector – React app for tracking Funko Pop collections.</li>
-              <li>Peninsula Hoopers League – Full-stack CRUD basketball league manager.</li>
-              <li>Samarize / Travel Destinations – Django app for trips and activities.</li>
-            </ul>
+
+            <div className="projects-grid">
+              
+              {/* Funkollector */}
+              <a 
+                href="https://react-funkollector-front-end.vercel.app/" 
+                target="_blank" 
+                rel="noreferrer" 
+                className="project-card"
+              >
+                <h3>Funkollector</h3>
+                <p>A collector-friendly React app for managing Funko Pop collections and wishlists.</p>
+                <p className="meta">React · Node.js · MongoDB</p>
+                <div className="project-links">
+                  <span className="btn ghost small">Live Demo</span>
+                  <span className="btn primary small">GitHub</span>
+                </div>
+              </a>
+
+              {/* PHL */}
+              <a 
+                href="https://peninsula-hoopers-league-6dc6db12264c.herokuapp.com/" 
+                target="_blank" 
+                rel="noreferrer" 
+                className="project-card"
+              >
+                <h3>Peninsula Hoopers League</h3>
+                <p>A full CRUD basketball league app with teams, players, and division management.</p>
+                <p className="meta">Node.js · Express · MongoDB · EJS</p>
+                <div className="project-links">
+                  <span className="btn ghost small">Live Demo</span>
+                  <span className="btn primary small">GitHub</span>
+                </div>
+              </a>
+
+              {/* Samarize */}
+              <a 
+                href="https://sam-arize-3103ffa01ce3.herokuapp.com/" 
+                target="_blank" 
+                rel="noreferrer" 
+                className="project-card"
+              >
+                <h3>Samarize</h3>
+                <p>A role-based inventory & asset manager built with Django and PostgreSQL.</p>
+                <p className="meta">Django · Python · PostgreSQL</p>
+                <div className="project-links">
+                  <span className="btn ghost small">Live Demo</span>
+                  <span className="btn primary small">GitHub</span>
+                </div>
+              </a>
+
+            </div>
           </div>
         </section>
 
