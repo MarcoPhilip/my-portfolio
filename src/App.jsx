@@ -1,6 +1,7 @@
 // src/App.jsx
 import './App.css'
 import profilePic from './assets/self.jpeg'
+import gaBadge from './assets/ga-badge.png'
 
 function App() {
   return (
@@ -57,6 +58,10 @@ function App() {
               seeking my first Software Engineering role where I can grow,
               contribute, and continue building real-world applications.
             </p>
+            <div className="ga-badge-wrapper">
+              <img src={gaBadge} alt="General Assembly Software Engineering Immersive Badge" className="ga-badge" />
+              <p className="ga-badge-text">General Assembly — Software Engineering Immersive Graduate</p>
+            </div>
           </div>
         </section>
 
