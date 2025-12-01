@@ -195,7 +195,40 @@ function App() {
         <section id="contact" className="section">
           <div className="section-inner">
             <h2>Contact</h2>
-            <p>We&apos;ll add real links and a nicer layout next.</p>
+            <p>
+              If you’d like to discuss an opportunity, collaborate on a project, or connect,
+              feel free to reach out!
+            </p>
+
+            <div className="contact-links">
+              <a
+                href="mailto:marcophilipagapito@gmail.com"
+                className="btn primary btn-animate"
+              >
+                <span className="contact-icon">📧</span>
+                <span>Email Me</span>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/marcophilip/"
+                target="_blank"
+                rel="noreferrer"
+                className="btn ghost btn-animate"
+              >
+                <span className="contact-icon">💼</span>
+                <span>LinkedIn</span>
+              </a>
+
+              <a
+                href="https://github.com/marcophilip"
+                target="_blank"
+                rel="noreferrer"
+                className="btn ghost btn-animate"
+              >
+                <span className="contact-icon">💻</span>
+                <span>GitHub</span>
+              </a>
+            </div>
           </div>
         </section>
       </main>

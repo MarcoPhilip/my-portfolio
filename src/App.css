@@ -177,6 +177,31 @@ body {
   font-size: 0.8rem;
 }
 
+/* Icons inside contact buttons */
+.contact-icon {
+  margin-right: 0.5rem;
+  font-size: 1.05rem;
+}
+
+/* Animated buttons for contact links */
+.btn-animate {
+  transition:
+    transform 0.12s ease-out,
+    box-shadow 0.12s ease-out,
+    background-color 0.12s ease-out,
+    border-color 0.12s ease-out;
+}
+
+.btn-animate:hover {
+  transform: translateY(-1px) scale(1.02);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+}
+
+.btn-animate:active {
+  transform: translateY(0) scale(0.97);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+}
+
 /* lists */ 
 
 .section ul {
