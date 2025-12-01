@@ -21,14 +21,16 @@ function App() {
         <section id="hero" className="section hero">
                 <div className="section-inner hero-layout">
                   <div className="hero-left">
-                    <p className="hero-eyebrow">Software Engineer</p>
-                    <h1>Hi, I&apos;m Marco.</h1>
+                    <p className="hero-eyebrow">Junior Software Engineer</p>
+                    <h1>Hi, I’m Marco.</h1>
                     <p className="hero-tagline">
-                      I build clean, user-focused web apps — from collectibles dashboards to league
-                      management tools.
+                      I’m a full-stack developer focused on building clean, user-friendly web
+                      applications using React, Node.js, Express, and MongoDB. I recently
+                      completed an intensive software engineering immersive where I built
+                      real-world projects from scratch.
                     </p>
                     <div className="hero-actions">
-                      <a href="#projects" className="btn primary">View Projects</a>
+                      <a href="#projects" className="btn primary">View My Work</a>
                       <a href="#contact" className="btn ghost">Contact Me</a>
                     </div>
                   </div>
@@ -41,11 +43,19 @@ function App() {
 
         <section id="about" className="section">
           <div className="section-inner">
-            <h2>About</h2>
+            <h2>About Me</h2>
             <p>
-              I&apos;m a software engineer with a background in autonomous vehicle operations
-              and customer-facing roles. I recently completed a software engineering immersive and
-              now focus on building full-stack JavaScript apps.
+              I’m a Junior Software Engineer with hands-on experience building
+              full-stack applications using React, Node.js, Express, MongoDB,
+              and Django. My background in autonomous vehicle operations at Waymo
+              strengthened my technical problem-solving, attention to detail,
+              and communication with engineering teams.
+            </p>
+            <p>
+              I thrive in collaborative environments, enjoy breaking down complex
+              problems, and love turning ideas into functional products. I’m currently
+              seeking my first Software Engineering role where I can grow,
+              contribute, and continue building real-world applications.
             </p>
           </div>
         </section>
