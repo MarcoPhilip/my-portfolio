@@ -98,7 +98,7 @@ function App() {
             <h2>Projects</h2>
 
             <div className="projects-grid">
-              
+
               {/* Funkollector */}
               <a 
                 href="https://react-funkollector-front-end.vercel.app/" 
@@ -109,9 +109,25 @@ function App() {
                 <h3>Funkollector</h3>
                 <p>A collector-friendly React app for managing Funko Pop collections and wishlists.</p>
                 <p className="meta">React · Node.js · MongoDB</p>
+
                 <div className="project-links">
-                  <span className="btn ghost small">Live Demo</span>
-                  <span className="btn primary small">GitHub</span>
+                  <a 
+                    href="https://react-funkollector-front-end.vercel.app/" 
+                    target="_blank" 
+                    rel="noreferrer" 
+                    className="btn ghost small"
+                  >
+                    Live Demo
+                  </a>
+
+                  <a 
+                    href="https://github.com/marcophilip/react-funkollector-front-end" 
+                    target="_blank" 
+                    rel="noreferrer" 
+                    className="btn primary small"
+                  >
+                    GitHub
+                  </a>
                 </div>
               </a>
 
@@ -125,9 +141,25 @@ function App() {
                 <h3>Peninsula Hoopers League</h3>
                 <p>A full CRUD basketball league app with teams, players, and division management.</p>
                 <p className="meta">Node.js · Express · MongoDB · EJS</p>
+
                 <div className="project-links">
-                  <span className="btn ghost small">Live Demo</span>
-                  <span className="btn primary small">GitHub</span>
+                  <a 
+                    href="https://peninsula-hoopers-league-6dc6db12264c.herokuapp.com/" 
+                    target="_blank" 
+                    rel="noreferrer" 
+                    className="btn ghost small"
+                  >
+                    Live Demo
+                  </a>
+
+                  <a 
+                    href="https://github.com/marcophilip/peninsula-hoopers-league" 
+                    target="_blank" 
+                    rel="noreferrer" 
+                    className="btn primary small"
+                  >
+                    GitHub
+                  </a>
                 </div>
               </a>
 
@@ -141,9 +173,25 @@ function App() {
                 <h3>Samarize</h3>
                 <p>A role-based inventory & asset manager built with Django and PostgreSQL.</p>
                 <p className="meta">Django · Python · PostgreSQL</p>
+
                 <div className="project-links">
-                  <span className="btn ghost small">Live Demo</span>
-                  <span className="btn primary small">GitHub</span>
+                  <a 
+                    href="https://sam-arize-3103ffa01ce3.herokuapp.com/" 
+                    target="_blank" 
+                    rel="noreferrer" 
+                    className="btn ghost small"
+                  >
+                    Live Demo
+                  </a>
+
+                  <a 
+                    href="https://github.com/MarcoPhilip/sam-arize" 
+                    target="_blank" 
+                    rel="noreferrer" 
+                    className="btn primary small"
+                  >
+                    GitHub
+                  </a>
                 </div>
               </a>
 
