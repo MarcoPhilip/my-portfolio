@@ -1,16 +1,66 @@
-# React + Vite
+# 📌 Marco Agapito — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website!  
+This site showcases my software engineering projects, technical skills, and background as I continue my journey into full-stack development.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 About This Portfolio
 
-## React Compiler
+Built with **React + Vite**, this portfolio serves as both a professional introduction and a live hub for my projects.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Features
+- Clean, responsive UI  
+- Sections for About, Skills, Projects, and Experience  
+- Clickable project cards  
+- GitHub & Live Demo links  
+- Integrated General Assembly SEI badge  
+- Contact section with LinkedIn & email  
+- Fully responsive (mobile, tablet, desktop)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Frontend:** React, Vite, CSS  
+- **Deployment:** Vercel  
+- **Design:** Mobile-first, modern layout  
+- **Assets:** Personal logo, GA badge, profile photo  
+
+---
+
+## 📂 Featured Projects
+
+### 🧸 Funkollector  
+A React-based web app for collectors to manage Funko Pop collections and wishlists.  
+**Tech:** React, Node.js, Express, MongoDB  
+- 🔗 Live Demo  
+- 🔗 GitHub Repo  
+
+---
+
+### 🏀 Peninsula Hoopers League  
+A full CRUD basketball league manager with teams, players, and division filtering.  
+**Tech:** Node.js, Express, MongoDB, EJS  
+- 🔗 Live Demo  
+- 🔗 GitHub Repo  
+
+---
+
+### 🧿 Samarize  
+A role-based asset & inventory management system.  
+**Tech:** Django, Python, PostgreSQL  
+- 🔗 Live Demo  
+- 🔗 GitHub Repo  
+
+---
+
+## 📧 Contact Me
+
+If you’d like to connect, collaborate, or chat — feel free to reach out!
+
+- **LinkedIn:** https://www.linkedin.com/in/marcophilip  
+- **Email:** marcophilip.agapito@gmail.com  
+
+---
+
