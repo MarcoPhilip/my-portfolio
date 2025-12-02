@@ -165,7 +165,7 @@ function App() {
 
               {/* Samarize */}
               <a 
-                href="https://sam-arize-3103ffa01ce3.herokuapp.com/" 
+                href="https://sam-arize.onrender.com/" 
                 target="_blank" 
                 rel="noreferrer" 
                 className="project-card"
@@ -176,7 +176,7 @@ function App() {
 
                 <div className="project-links">
                   <a 
-                    href="https://sam-arize-3103ffa01ce3.herokuapp.com/" 
+                    href="https://sam-arize.onrender.com/" 
                     target="_blank" 
                     rel="noreferrer" 
                     className="btn ghost small"
